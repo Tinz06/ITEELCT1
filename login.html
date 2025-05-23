@@ -22,52 +22,57 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        backdrop-filter: blur;
+        
     }
   </style>
+
+  <style>
+    .transparent-shadow-box{
+            width: 600px;
+            height: 500;
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid #ddd;
+            box-shadow: 0px 20px 20px rgb(36, 35, 35);
+            border-radius: 8px;
+            margin: 50px auto;
+            text-align: center;
+            font-family: Arial,sans-serif;
+            backdrop-filter: blur;
+            color: white;
+        }
+  </style>
   
-
-  <form action="action_page.php" method="post">
-    <div class="imgcontainer">
-      <img src="img_airplane.png" alt="Avatar" class="Travel">
-    </div>
-
-    
+  <head>
+    <body>
+      <div class="transparent-shadow-box">
+        <h1>Login</h1>
+        
+       <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+   <label for="floatingInput">Email address</label>
+  </div>
+  <div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label>
+  </div>
   
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
+  <button onclick="document.location='file:///C:/Users/LAB2/Documents/Martinez%202-1/Main.html'"></button>
 
-
-    <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="inputPassword6" class="col-form-label">Password</label>
-      </div>
-      <div class="col-auto">
-        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-      </div>
-      <div class="col-auto">
-        <span id="passwordHelpInline" class="form-text">
-          
-        </span>
-      </div>
-    </div>
-
-
-      <body>
+   <body>
       <head>
-      <button type="submit"></button>
-      <a href="file:///C:/Users/LAB2/Documents/Martinez%202-1/Main.html" target="_self">login</a>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <a href="login.html" target="_self"></a>
-    <a href="file:///C:/Users/LAB2/Documents/Martinez%202-1/action_page.php" target="_self"></a>
-    </body>
-    </head>
+        
+      <br>
+      
+      <button onclick="document.location='file:///C:/Users/LAB2/Documents/Martinez%202-1/Main.html'">Login</button>
+      
   
+
+
+    </body>
+  </head>
+
 
 
 

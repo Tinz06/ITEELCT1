@@ -7,9 +7,6 @@
 </head>
 <body>
 
-    <a href="login.html" target="_self"></a>
-    <a href="file:///C:/Users/LAB2/Documents/Martinez%202-1/login.html" target="_self">Back</a>    
-
 
    <head>
     <style>
@@ -17,13 +14,14 @@
             width: 600px;
             height: 500;
             padding: 20px;
-            background-color: white;
+            background-color: transparent;
             border: 1px solid #ddd;
             box-shadow: 0px 20px 20px rgb(36, 35, 35);
             border-radius: 8px;
             margin: 50px auto;
             text-align: center;
             font-family: Arial,sans-serif;
+            backdrop-filter: blur;
         }
         body{
             background-image: url("d7ea34e96497ba74fe7fca5190f050a9.jpg");
@@ -55,17 +53,25 @@
        <br> <label style="font-size: 20px;">LastName</label>
         <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
 
-         <br> 
+             <br> 
        <br> <label style="font-size: 20px;">Age</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your Age..">
+        <input type="text" id="Age" name="Age" placeholder="Your Age..">
+
+            <br>
+        <br> <label style="font-size: 20px;" for="country">Sex</label>
+        <select id="Sex" name="Sex">
+        <option value="australia">Male</option>
+        <option value="canada">Female</option>
+        
+        </select>
 
             <br>
        <br> <label style="font-size: 20px;">PhoneNumber</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your PhoneNumber..">
+        <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Your PhoneNumber..">
 
         <br> 
        <br> <label style="font-size: 20px;">Addres</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your Address..">
+        <input type="text" id="Addres" name="Addres" placeholder="Your Address..">
 
         <br> 
        <br> <div class="mb-3">
@@ -75,22 +81,16 @@
 
         
         <br> <label style="font-size: 20px;">Country</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your Country..">   
+        <input type="text" id="Country" name="Country" placeholder="Your Country..">   
 
-        
-        <br>
-        <br> <button style="color: green;"
-        type="button" class="btn btn-success">Success</button>
+    <br>
+        <br> <label style="font-size: 20px;">Type of Event</label>
+        <input type="text" id="Country" name="Country" placeholder="..">  
 
 
-        
-        
-    </div>
-    </div>
-   </body>
-
-    
-
+    <br>
+        <br>   <a href="file:///C:/Users/LAB2/Documents/Martinez%202-1/Main2.html" target="_self">Submit</a>
+      
 
 
     
